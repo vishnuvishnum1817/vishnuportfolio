@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/482d1d77c5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav id="nav">
+               <h1 style="font-weight: bold; font-size: 50px; font-family: sans-serif;color: black;">vishnu</h1>
+               <ul id="menulist">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">projects</a></li>
+                <li><a href="#portfolio">portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+               </ul>
+               <i class="fas fa-bars" onclick="openmenu()"></i>
+               <!-- <div class="nav-toggle">
+               <i class="fa-solid fa-bars" ></i>
+            </div> -->
+            </nav>
+             <!-- onclick="shownavbar()"> -->
+                <!-- <i class="fa-solid fa-bars"></i> -->
+            </div>
+            <div class="header-text">
+                <p>Front-end developer</p>
+                <h1>Hi, I'm <span>vishnu</span> <br>
+                     from coimbatore</h1>
+            </div>
+        </div>
+    </div>
+    
+    <!-- ----------------------about--------------- -->
+
+    <div id="about">
+        <div class="container">
+            <div class="about-col-1">
+                <img src="bg2.png" alt="" width="55%"  >
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About me</h1>
+                <p> I am a Third-year professional engineering student specializing in ECE at Hindusthan College of engineering and technology. Currently, I am seeking opportunities for free internship programs and employment in web development </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">skills</p>
+                    <p class="tab-links" onclick="opentab('education')">education</p>
+                    <p class="tab-links"onclick="opentab('languages')">languages</p>
+                </div>
+            <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>Front-end Development</span> <br> Desiging web interfaces</li>
+                </ul>
+                <ul><li><span>canva</span> <br> Desiging poster</li></ul>
+                <ul>
+                    <li><span>web Development</span> <br> Desiging web interfaces</li>
+                </ul>
+                <ul>
+                    <li><span>IBM Relational database management system </span> <br> </li>
+                </ul>
+                <ul><li><span>IBM Introduction to Python</span> <br> </li></ul>
+                <ul>
+                    <li><span>IBM Java Fundamentals</span> <br></li>
+                </ul>
+            </div>
+            
+            <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>Hindusthan college of engineering and technology <br> coimbatore</span> <br> Nov 2022 - Apr 2026</li>
+                </ul>
+                <ul><li><span>Mount park higher secondary school <br> Thiyagadurgam kallakurichi</span> <br> Jun 2018 - Aug 2021</li></ul>
+                <ul>
+                    <li><span>SSV higher secondary school <br> senthamangalam villupuram</span> <br> Jul 2015 - Aug 2017</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="languages">
+                <ul>
+                    <li><span>Native</span> <br> Tamil</li>
+                </ul>
+                <ul><li><span>Professional working proficiency</span> <br> English</li></ul>
+                
+            </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------------------------projects--------------------------- -->
+
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">My projects</h1>
+            <div class="projects-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Front-end web design for custome</h2>
+                    <p>Designed and developed a custom web page front end using HTML, CSS, and JavaScript, showcasing advanced skills in creating visually appealing, responsive, and interactive user interfaces. This project emphasizes my ability to translate design concepts into functional web pages, ensuring a seamless user experience across various devices and browsers.
+                    </p>
+                
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Front-end web design for sleepsync</h2>
+                    <p>Developed a front-end web page for the SleepSync device, a cutting-edge tool designed to improve sleep quality through advanced technology. This project showcases my proficiency in HTML, CSS, and JavaScript to create a visually appealing, informative, and user-friendly website that effectively communicates the benefits and features of the SleepSync device.</p>
+                
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>stone paper scissors</h2>
+                    <p>Developed an interactive Rock-Paper-Scissors game using HTML, CSS, and JavaScript. This project demonstrates a solid understanding of front-end web development technologies and principles, including responsive design, dynamic user interactions, and game logic implementation.</p>
+                
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>FORM validation</h2>
+                    <p>Developed a robust form validation system using HTML, CSS, and JavaScript, ensuring accurate and secure data input on web forms. This project highlights my ability to create intuitive, user-friendly forms with real-time validation feedback, enhancing the overall user experience and data integrity</p>
+                    </p>
+                
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------------------------------portfolio----------------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My works</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Screenshot 2024-02-19 211731.png" alt="">
+                    <div class="layer">
+                        <h3>Custome store webpage front-end design </h3>
+                        <a href="https://vishnuvishnum1817.github.io/customestore/"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                    
+                </div>
+                <div class="work">
+                    <img src="Screenshot 2024-03-09 121702.png" alt="">
+                    <div class="layer">
+                        <h3>Front-end web design for sleepsync </h3>
+                        <a href="https://vishnuvishnum1817.github.io/sleepsync-frontend-/"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Screenshot 2024-06-11 143547.png" alt="">
+                    <div class="layer">
+                        <h3>stone paper scissors</h3>
+                        <a href="https://vishnuvishnum1817.github.io/stonepaperscissors/""><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <!-- <div class="work">
+                    <img src="Screenshot 2024-03-16 200413.png" alt="">
+                    <div class="layer">
+                        <h3>Profile card</h3>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div> -->
+                <div class="work">
+                    <img src="Screenshot 2024-06-11 145938.png" alt="">
+                    <div class="layer">
+                        <h3>form validation </h3>
+                        <a href="https://vishnuvishnum1817.github.io/form-validation/"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="footer" >
+        <div class="footer-container">
+            <div class="footer-box-1">
+                <h2 class="headingtext">vishnu</h2>
+                <p>All rights reserved. Use of this website constitutes acceptance of our Terms of Service and Policy and Cookie Statement. The material on this site may not be reproduced, distributed, transmitted, cached or otherwise used, except with the prior written permission of Condé Nast..</p>
+                <div class="footer-icon-container">
+                    <i class="fa-brands fa-instagram" style="color: #ffff;"></i>
+                    <i class="fa-brands fa-twitter" style="color: #ffff;"></i>
+                    <i class="fa-brands fa-facebook" style="color: #ffff;"></i>
+                </div>
+                
+            </div>
+        </div>
+        <p>vishnumvishnu1718@gmail.com</p>
+    </div> -->
+<div id="contact"><div class="container">
+    <div class="row">
+        <div class="contact-left">
+            <h1 class="sub-title">
+                Contact Me
+            </h1>
+            <p>vishnumvishnu1718@gmail.com</p>
+            <p>8220494831</p>
+            <p>Resume <a href="Vishnu_M_Resume (1) (2).pdf">click</a></p> 
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/vishnu-m-1817vishnu?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BmopRNBmfSHaRjgQ8EGuxbw%3D%3D"><i class="fab fa-linkedin"></i></a><a href="https://www.instagram.com/im_vishnu.m/?hl=en"><i class="fab fa-instagram"></i></a><a href=""></a><a href=""></a><a href=""></a>
+            </div>
+        </div>
+    </div>
+</div></div>
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links")
+        var tabcontents = document.getElementsByClassName("tab-contents")
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link")
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+
+//         var menulist = document.getElementById("menuLists")
+//        var navtoggle= document.querySelector(".nav-toggles")
+//        var container1 = document.querySelectorAll(" ul ")
+// var container2 = document.querySelectorAll("li")
+//         function togglemenu(){
+//             container2.container1.style.display ='block'
+//         }
+
+        // const navtoggle =document.querySelector(".nav-toggle")
+        // const menulist = document.querySelector(".menulist")
+        // navtoggle.addEventListener('click',()=>{
+        //     menulist.classList('showmenu')
+        // })
+
+        // const nav = document.getElementById('nav')
+        // const navtoggle= document.querySelector(".nav-toggles")
+
+        // navtoggle.addEventListener('click',(e)=>{
+        //     nav.classList.toggle('')
+        // })
+
+
+
+
+    </script>
+    <script>
+        var menulist = document.getElementById("menulist")
+        function openmenu(){
+            menulist.style.right="0"
+        }
+        function closemenu(){
+            menulist.style.right="-200px"
+        }
+    </script>
+</body>
+</html>
